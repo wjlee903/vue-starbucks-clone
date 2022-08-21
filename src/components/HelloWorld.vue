@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      은비가 바꾼부분 - push 테스트 중
+      은비가 바꾼부분 - push 진짜 마지막 테스트 입니당
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
