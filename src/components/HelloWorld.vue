@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      원종이가 수정한 부분입니다.dddddd
+      은비가 한번더 수정했어요dddddd
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli documentation</a
       >.
