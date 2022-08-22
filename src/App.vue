@@ -1,31 +1,19 @@
 <template>
-  <img
-    id="logo"
-    src="https://www.starbucks.co.kr/common/img/common/logo.png"
-    alt="logo"
-  />
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <StarbucksHeader />
+    <StarbucksMain />
+    <StarbucksFooter />
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import StarbucksHeader from "./components/StarbucksHeader.vue";
+import StarbucksMain from "./components/StarbucksMain.vue";
+import StarbucksFooter from "./components/StarbucksFooter.vue";
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { StarbucksMain, StarbucksFooter, StarbucksHeader },
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>

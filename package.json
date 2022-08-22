@@ -12,6 +12,8 @@
     "bootstrap": "^5.2.0",
     "bootstrap-vue-3": "^0.2.9",
     "core-js": "^3.8.3",
+    "sass": "^1.54.5",
+    "sass-loader": "^10.3.1",
     "vue": "^3.2.37"
   },
   "devDependencies": {
